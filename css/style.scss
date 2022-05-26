@@ -725,8 +725,8 @@ textarea {
 
 .btn {}
 .close-preview{
- position: absolute;
- top:15px;
+ position: fixed;
+ top:65px;
  right:15px;
  font-size: 30px;
  cursor: pointer;
@@ -867,7 +867,7 @@ textarea {
 
 .swiper-horizontal>.swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal {
-  bottom: -15px;
+  bottom: -20px;
 }
 .slider-header{
   display: flex;
