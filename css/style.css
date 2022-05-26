@@ -474,7 +474,7 @@ textarea {
 }
 
 .swiper-pagination {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .swiper-pagination-bullet {
@@ -723,7 +723,7 @@ textarea {
 
 .swiper-horizontal > .swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal {
-  bottom: -20px;
+  bottom: -15px;
 }
 
 .slider-header {
@@ -1256,7 +1256,12 @@ textarea {
   }
 
   .close-preview {
-    color: .close-preview peru;
+    color: #cd9452;
+  }
+}
+@media (max-height: 600px) {
+  .food-preview-container {
+    align-items: flex-start;
   }
 }
 
